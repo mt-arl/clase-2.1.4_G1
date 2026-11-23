@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://cciwpi8y5abw3"]
+
+[ext_resource type="Script" uid="uid://x2ugv7ac40h1" path="res://personaje.gd" id="1"]
+
+[node name="Main" type="Node2D" unique_id=1529090251]
+
+[node name="Titulo" type="Label" parent="." unique_id=1084544208]
+offset_left = 24.0
+offset_top = 16.0
+offset_right = 776.0
+offset_bottom = 45.0
+theme_override_font_sizes/font_size = 24
+text = "Input Map y acciones"
+
+[node name="Controles" type="Label" parent="." unique_id=1842221687]
+offset_left = 24.0
+offset_top = 49.0
+offset_right = 776.0
+offset_bottom = 96.0
+theme_override_colors/font_color = Color(0.8, 0.86, 0.93, 1)
+theme_override_font_sizes/font_size = 17
+text = "Muévete con WASD o con las flechas.
+Vuelve al centro con R."
+
+[node name="AreaDeMovimiento" type="ColorRect" parent="." unique_id=1205589206]
+offset_left = 24.0
+offset_top = 112.0
+offset_right = 776.0
+offset_bottom = 456.0
+mouse_filter = 2
+color = Color(0.105, 0.16, 0.23, 1)
+
+[node name="Personaje" type="ColorRect" parent="." unique_id=926525640]
+offset_left = 384.0
+offset_top = 268.0
+offset_right = 416.0
+offset_bottom = 300.0
+mouse_filter = 2
+color = Color(0.38, 0.88, 0.72, 1)
+script = ExtResource("1")
