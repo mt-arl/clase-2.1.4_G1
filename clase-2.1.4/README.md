@@ -10,7 +10,6 @@
 | Material | Archivos |
 | --- | --- |
 | Plan de clase | [PDF](Plan_de_clase_Grupo_1.pdf) y [Word editable](Plan_de_clase_Grupo_1.docx) |
-| Presentación | [Guion de ocho diapositivas](02_estructura_presentacion.txt) |
 | Ejercicio en Godot | [Proyecto](ejercicio_presentacion/project.godot) y [pasos de la demostración](ejercicio_presentacion/README.md) |
 | Reto | [Instrucciones para estudiantes](reto_estudiantes/README.md) y [pista y solución para el cierre](04_pista_y_solucion.md) |
 
